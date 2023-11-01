@@ -1,23 +1,22 @@
 /******************************************************************************
- * Copyright (C) 2017 by Alex Fosdick - University of Colorado
+ * Copyright (C) 2023 Harshal Sinkar
  *
- * Redistribution, modification or use of this software in source or binary
- * forms is permitted as long as the files maintain this copyright. Users are 
- * permitted to modify this and use it to learn about the field of embedded
- * software. Alex Fosdick and the University of Colorado are not liable for any
- * misuse of this material. 
+ * Redistribution, modification or use of this software in source is allowed for
+ * peers to grade this assignment.
  *
- *****************************************************************************/
-/**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ ******************************************************************************
+ * @file stats.c
+ * @brief This file contains some user defined c functions which performs
+ * basic statistical operation on array and main function.
  *
- * <Add Extended Description Here>
+ * This file has print array(),fin_maximum(),find_minimum(),find_mean(),
+ * find_median(),sort_array(),print_statistics() functions .
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Harshal Sinkar>
+ * @date 1-11-2023
  *
  */
+
 
 
 
@@ -34,10 +33,23 @@ void main() {
                               200, 122, 150, 90,   92,  87, 177, 244,
                               201,   6,  12,  60,   8,   2,   5,  67,
                                 7,  87, 250, 230,  99,   3, 100,  90};
-
-  /* Other Variable Declarations Go Here */
-  /* Statistics and Printing Functions Go Here */
-
 }
 
-/* Add other Implementation File Code Here */
+void print_array(int array[], int len)     /*FUNCTION WHICH WILL PRINT ARRAY*/
+
+int find_maximum(int array[],int len)    /*FUNCTION WHICH WILL RETURN MAXIMUM ELEMENT*/
+
+int find_minimum(int array[],int len)    /*FUNCTION WHICH WILL RETURN MINIMUM ELEMENT*/
+
+void sort_array(int* array, int len)       /*FUNCTION WHICH WILL SORT THE ARRAY*/
+
+double find_mean(int array[],int len)     /*FUNCTION WHICH WILL RETURN THE MEAN OF ELEMENTS OF ARRAY*/
+
+double find_median(int array[], int len)      /*FUNCTION WHICH WILL RETURN MEDIAN OF ELEMENTS OF ARRAY*/
+
+void print_statistics(int array[], int len)    /*FUNCTION WHICH WILL PRINT BASIC STATISTICAL INFORMATION ABOUT ARRAY*/
+
+
+/*END*/
+
+

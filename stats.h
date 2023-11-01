@@ -1,40 +1,87 @@
 /******************************************************************************
- * Copyright (C) 2017 by Alex Fosdick - University of Colorado
+ * Copyright (C) 2023 Harshal Sinkar
  *
- * Redistribution, modification or use of this software in source or binary
- * forms is permitted as long as the files maintain this copyright. Users are 
- * permitted to modify this and use it to learn about the field of embedded
- * software. Alex Fosdick and the University of Colorado are not liable for any
- * misuse of this material. 
+ * Redistribution, modification or use of this software in source is allowed for
+ * peers to grade this assignment.
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file <Week 1 Peer graded assignment> 
+ * @brief This file contains several function which are useful to perform basic  statistical operation on given data element which is array.
  *
- * <Add Extended Description Here>
+ * This function includes function which will display all maximum , minimum ,mean and median of  data along with function which will calculate
+ * maximum minimum mean and median of the data . Also sort_array function will sort the given array in ascending order.
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Add Harshal Sinkar>
+ * @date <2023-10-31 >
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
-
+/**function : print_statistics()
+ * @brief print the basic statistics of given array including maximum, minimum, mean and median.
+ *
+ * This function takes an array as input and performs some operations to print 
+ * the maximum ,minimum ,mean and median of that data.
+ * mean is same as arithmatic average of data and median is the element present at centre.
+ *
+ * @param array on which we have to perform operation.
+ * @param length of the given array.
+ *
+ * @return prints the maximum , minimum ,mean and median of given array.
+ */
 /**
- * @brief <Add Brief Description of Function Here>
+ * function : print_array()
+ * @brief prints the given array.
  *
- * <Add Extended Description Here>
+ * This function prints the input array when provided with array and it's length.
  *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
+ * @param array 
+ * @param length of the given array
  *
- * @return <Add Return Informaiton here>
+ * @return prints the array.
+ */
+/**
+ * function : find_median()
+ * @brief Finds median of the given data.
+ *
+ * This function finds the median of the elements from array.Median is the middle element in the sorted array.
+ *
+ * @param array on which we have to perform operation.
+ * @param length of the given array.
+ *
+ * @return median value of elements of array.
+ */
+/**
+ * function : find_mean()
+ * @brief Finds mean of the given data.
+ *
+ * This function finds mean of the elements from array.Mean is basically arithmatic average of given data elements.
+ *
+ * @param array on which we have to perform operation.
+ * @param length of the given array.
+ *
+ * @return mean value of elements of array.
+ */
+/**function : find_maximum() , find_minimum()
+ * @brief finds maximum and minimum element from given array respectively.
+ *
+ * This function compares every element of given array to find maximum and minimum element among them.
+ *
+ * @param array on which we have to perform the operation.
+ * @param length of given array.
+ *
+ * @return maximum and minimum element from given array respectively.
+ */
+/**function sort_array
+ * @brief sorts the given array in ascending order.
+ *
+ * This function uses insertion sort which is good and eficient technique to sort array of small length.
+ *
+ * @param array on which operation is to performed
+ * @param length of given array
+ *
+ * @return the sorted array.
  */
 
-
-#endif /* __STATS_H__ */
