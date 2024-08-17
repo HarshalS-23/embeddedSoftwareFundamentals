@@ -11,5 +11,5 @@
 ### Software Essentials to use in conjunction with the course1, the Introductio
 ### to Embedded Software and Development Environments.
 
-### The repository has two folders with README.md namely week1Progress , week2Progress .
+### The repository has README.md , stats.c ,stats.h and a Makefile .
 
